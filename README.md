@@ -1,10 +1,6 @@
 # Terra Fácil ERP
 > Com uma interface amigável e funcionalidades poderosas, o TerraFácil ERP se destaca como uma ferramenta indispensável para a maximização da produtividade e eficiência no ambiente rural
 
-<p align="center" style="border-radius:50%;">
-<img src="https://github.com/ICEI-PUC-Minas-PMV-SInt/TerraFacilERP/blob/main/docs/figuras/logo-02.png"></img>
-</p>
-
 É uma solução abrangente e intuitiva desenvolvida para otimizar a gestão de fazendas, proporcionando aos gestores e proprietários uma visão detalhada e em tempo real de todas as operações e processos relacionados à administração agrícolas
 
 
