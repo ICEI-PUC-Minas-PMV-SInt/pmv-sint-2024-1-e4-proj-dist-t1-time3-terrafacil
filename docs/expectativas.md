@@ -1,17 +1,21 @@
 # Expectativas
 
-> Neste momento, concentre-se em descrever as expectativas para o produto, sem entrar em detalhes
-> sobre a solução. Enumere as possibilidades que auxiliam a resolver os problemas e dificuldades dos usuários no
-> no cenário correntes, respondendo às perguntas: quais são as expectativas em relação ao produto? Aonde você
-> almeja chegar com ele?
 
-1. Espera-se uma interface intuitiva e fácil de usar para o gerenciamento eficiente de tarefas e projetos.
-2. Os usuários desejam a integração de uma técnica de pomodoro que melhore o foco e a produtividade nas atividades.
-3. A possibilidade de priorizar tarefas usando o método de Eisenhower, auxiliando na gestão do tempo e esforço.
-4. Espera-se uma funcionalidade de cronometragem precisa para medir o tempo dedicado a cada tarefa.
-5. Integração com o Google Calendar para visualização e sincronização das atividades e prazos.
-6. Os usuários desejam uma visão clara do custo de cada projeto com base nas horas cronometradas.
-7. Espera-se uma solução completa que atenda às demandas específicas dos freelancers, otimizando seu fluxo de trabalho e produtividade.
+1. **Integração & centralização de processos:** Expectativa de um software que integre e centralize todos os processos da fazenda, proporcionando uma visão unificada e facilitando a gestão
+
+2. **Eficiência na gestão de recurso:** Espera-se que o software auxilie na gestão eficiente de recursos como estoques, insumos e mão de obra, otimizando o uso dos recursos disponíveis
+
+3. **Análise para tomada de decisão:** A expectativa é que o sistema forneça análises de dados e relatórios para embasar as decisões estratégicas da fazenda
+
+4. **Monitoramento do clima tempo:** Os usuários esperam poder monitorar em tempo real o clima tempo, permitindo que o usuário saiba como ficará o tempo durante a semana ( se irá chover, fazer sol, ventar)
+
+5. **Facilidade de uso:** Espera-se que o software seja fácil de usar e tenha uma interface intuitiva, facilitando a adoção e a utilização por parte dos usuários
+
+6. **Adaptação e atualização contínua:** É esperado que o software seja flexível e capaz de se adaptar às necessidades em constante mudança da fazenda, além de receber atualizações regulares para garantir sua relevância e eficácia contínuas
+
+
+
+
 
 [Retorna](../README.md)
 
