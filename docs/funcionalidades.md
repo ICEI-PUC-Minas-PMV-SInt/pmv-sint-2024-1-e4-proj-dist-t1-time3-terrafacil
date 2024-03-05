@@ -1,39 +1,35 @@
 # Funcionalidades
 
-> Identifique as ações e/ou as interações de cada persona no produto. Descreva as 
-> funcionalidades a partir das questões: o usuário está tentando fazer algo, então o 
-> produto deve ter uma funcionalidade para isso. Qual é? Quais problemas da persona 
-> essa funcionalidade resolve? Quais benefícios ela traz para a persona? 
+## Funcionalidades para Enzo, o Gerente de Logística:
+1. Registro de Movimentações de Estoque: Permite Enzo registrar todas as entradas e saídas de insumos e produtos agrícolas, fornencendo uma visão do fluxo de esoque na fazendo facilitando o controle de inventário
+2. Alertas de Baixo Estoque: Oferece um sistema de alertas automáticos para notificar Enzo quando o nível de estoque de um deternubadi oridti estuver próximo do esgotamento, permitindo ações preventivas para evitar interrupções
+3. Priorização de Reposição de Insumos: Funcionalidade que perimite a Enzo classificar os isumos com base na importância e urgência de reposição.
+4. Monitoramento de Condições de Armazenamento: Permite que Enzo monitore em tempo real as condições de armzenamento dos insumos e produtos agrícolas
+5. Relatórios de Desperdício: Gera relatórios sobre desperdícios no processo de gestão de estoque, para que Enzo consiga identificar áreas de melhoria e implementar medidas corretivas para otimizar o uso dos recursos disponíveis
 
-## Funcionalidades para Ana, a Designer Freelancer:
 
-1. Registro de Tarefas: Permite a Ana criar e registrar todas as suas tarefas em diferentes projetos, garantindo uma visão clara de suas atividades diárias.
-2. Cronômetro Pomodoro: Oferece um cronômetro baseado na técnica de pomodoro para que Ana possa focar em suas tarefas com períodos de trabalho concentrado e pausas adequadas, melhorando sua produtividade.
-3. Priorização de Tarefas: Funcionalidade que permite que Ana classifique suas tarefas com base na importância e urgência, seguindo o método de Eisenhower, ajudando-a a gerenciar seu tempo de forma mais eficiente.
-4. Integração com Google Calendar: Permite que Ana integre suas tarefas e projetos ao Google Calendar, facilitando o acompanhamento de prazos e uma melhor organização de sua agenda.
-5. Relatório de Tempo por Projeto: Gera relatórios detalhados de tempo gasto em cada projeto, auxiliando Ana a calcular o custo real de seus serviços e facilitando a cobrança aos clientes.
 
-## Funcionalidades para Carlos, o Cliente Empreendedor:
-1. Acompanhamento de Freelancers: Permite que Carlos acompanhe o progresso de cada freelancer contratado em seus projetos, garantindo maior transparência e controle.
-2. Relatórios de Tempo e Custos: Fornece relatórios detalhados sobre o tempo gasto por cada freelancer em tarefas e projetos específicos, facilitando o controle dos custos e a tomada de decisões informadas.
-3. Avaliação de Desempenho: Oferece métricas para avaliar o desempenho dos freelancers, auxiliando Carlos na seleção dos profissionais mais eficientes para futuros projetos.
-4. Integração com Pagamento: Funcionalidade que possibilita a integração com sistemas de pagamento, permitindo que Carlos realize pagamentos precisos com base nos relatórios de tempo dos freelancers.
-5. Comunicação com Freelancers: Oferece um canal de comunicação para que Carlos possa se comunicar facilmente com os freelancers, tirar dúvidas e fornecer feedback sobre os projetos.
+## Funcionalidades para Julia, a Analista de Dados Agrícolas:
+1. Painel de Controle da Produção: Desenvolver um painel de controle intuitivo que apresente de forma visual e organiza as informações sobre a produção agrícola
+2. Registro de Inspeções: Permitir que Ana registre suas inspeções de qualidade de forma fácil e rápida, inserindo informações como data, local, observações e fotos, diretamente no software
+3. Histórico de Produção: Manter um registro das safras anteriores e dos resultados da inspeções de qualidade 
+4. Notificações de Alerta: Configurar notificações automáticas para alertar Julia sobre eventos importante relacionados à prrodução, como condições climáticas adversas
+5. Suporte a Dispostivos Móveis: Garantir que o software seja acessível através de dispositivos móveis, permitindo que Ana realize suas atividades de monitoramento
 
 
 ## Tabela de Funcionalidades:
 
-| Funcionalidades | Ana | Carlos |
+| Funcionalidades | Enzo | Julia |
 |-----------------|--------------|-----------------|
-| Registro de Tarefas | Sim | - |
-| Cronômetro Pomodoro | Sim | - |
-| Priorização de Tarefas | Sim | Sim |
-| Integração com Google Calendar | Sim | - |
-| Relatório de Tempo por Projeto |  - | Sim |
-| Acompanhamento de Freelancers | - | Sim |
-| Relatórios de Tempo e Custos | Sim | - |
-| Avaliação de Desempenho | - | Sim |
-| Integração com Pagamento | - | Sim |
-| Comunicação com Freelancers | - | Sim |
+| Registro de Movimentações de Estoque | Sim | - |
+| Alertas de Baixo Estoque | Sim | - |
+| Priorização de Reposição de Insumos	 | Sim | - |
+| Monitoramento de Condições de Armazenamento | Sim | - |
+| Relatórios de Desperdício |  Sim | - |
+| Painel de Controle da Produção | Sim | Sim |
+| Registro de Inspeções | - | Sim |
+| Histórico de Produção | - | Sim |
+| Notificações de Alerta | Sim | Sim |
+| Suporte a Dispostivos Móveis | Sim | Sim |
 
 [Retorna](../README.md)
