@@ -25,8 +25,8 @@
 | Alertas de Baixo Estoque | Sim | - |
 | Priorização de Reposição de Insumos	 | Sim | - |
 | Monitoramento de Condições de Armazenamento | Sim | - |
-| Relatórios de Desperdício |  Sim | - |
-| Painel de Controle da Produção | Sim | Sim |
+| Relatórios de Desperdício |  Sim | Sim |
+| Painel de Controle da Produção | Sim | - |
 | Registro de Inspeções | - | Sim |
 | Histórico de Produção | - | Sim |
 | Notificações de Alerta | Sim | Sim |
