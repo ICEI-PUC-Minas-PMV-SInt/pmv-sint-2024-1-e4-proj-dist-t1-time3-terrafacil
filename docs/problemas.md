@@ -10,4 +10,5 @@
 8. Problemas de comunicação e coordenação entre equipes e departamentos
 9. Dificuldade em acompanhar as mudanças e tendências do mercado agrícola
 
-[Retorna](../README.md)
+[Retorna](../README.md) |
+[Expectativas](./expectativas.md)
