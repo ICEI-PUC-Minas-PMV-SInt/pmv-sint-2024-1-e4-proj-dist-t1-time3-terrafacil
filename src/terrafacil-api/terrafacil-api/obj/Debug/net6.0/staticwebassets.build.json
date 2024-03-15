@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "or09UgbFyLFEw7DPwnxK6FzcaS4H114t6C6GypxGoqk=",
+  "Source": "terrafacil-api",
+  "BasePath": "_content/terrafacil-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
