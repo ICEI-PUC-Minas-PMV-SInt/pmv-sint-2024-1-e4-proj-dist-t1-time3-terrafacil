@@ -1,29 +1,23 @@
 # Priorização das Funcionalidades
 
-> Priorize as funcionaliades do produto utilizando o método MoSCoW com as categorias de priorização do MoSCoW:
-> - Must have (Deve ter): Funcionalidades essenciais e obrigatórias que atendem a necessidades críticas das personas.
-> - Should have (Deveria ter): Funcionalidades importantes, mas não tão críticas como as "Must have", e que podem agregar bastante valor.
-> - Could have (Poderia ter): Funcionalidades desejáveis, mas que podem ser adiadas para versões futuras sem impactar significativamente o produto inicial.
-> - Won't have (Não deve ter): Funcionalidades que não serão incluídas no escopo atual do MVP.
-
-> Coloque as funcionalidades priorizadas em uma tabela conforme o exemplo a seguir.
-
 **Roadmap de Produto - Sprints de duração de 1 Mês:**
 
-|Sprint 1 | Funcionalidade                     | Persona       | Priorização  | Justificativa                                                                                                                                                                                                                                                               |
-|---------|-----------------------------------|---------------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Sprint 1 - Semana 1-4 | Registro de Tarefas            | Ana | Must have    | Essencial para Ana gerenciar tarefas em projetos diversos e organizar atividades diárias.                                                                                                                                     |
-|                        | Cronômetro Pomodoro            | Ana | Must have    | Fundamental para Ana aumentar a produtividade com intervalos focados e pausas. |
-|                        | Priorização de Tarefas         | Ana | Must have    | A priorização de tarefas com o método de Eisenhower ajudará Ana a organizar atividades com eficiência. |
-|                        | Integração com Google Calendar | Ana | Must have    | Permitirá a Ana visualizar tarefas e compromissos em ambas as plataformas para um planejamento eficiente. |
-|                        | Relatório de Tempo por Projeto | Ana | Should have  | Importante para a Ana acompanhar o tempo gasto em cada projeto para planejamento financeiro e insights sobre a eficiência das suas atividades.                                                                  |
+| Sprint | Funcionalidade                                | Persona | Priorização | Justificativa                                     |
+|--------|-----------------------------------------------|---------|-------------|----------------------------------------------------|
+| Sprint 1 - Semana 1-4                | Registro de Movimentações de Estoque         | Enzo    | Must have   | Essencial para fornecer uma visão completa do fluxo de estoque na fazenda e facilitar o controle de inventário.|
+|      | Alertas de Baixo Estoque                     | Enzo    | Must have   | Crítico para permitir a Enzo tomar medidas preventivas para evitar interrupções no suprimento.|
+|      | Painel de Controle da Produção               | Julia   | Must have   | Fundamental para fornecer a Julia uma visão visual e organizada das informações sobre a produção agrícola.|
+|    | Registro de Inspeções                        | Julia   | Must have   | Essencial para Julia registrar e acompanhar as inspeções de qualidade de forma eficiente.|
 
-|Sprint 2 | Funcionalidade               | Persona       | Priorização  | Justificativa                                                                                                                      |
-|---------|-----------------------------|---------------|--------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| Sprint 2 - Semana 5-8 | Acompanhamento de Freelancers| Carlos | Must have    | Essencial para Carlos gerenciar sua equipe de freelancers, acompanhar o progresso dos projetos e melhorar a eficiência e comunicação entre eles. |
-|                        | Relatórios de Tempo e Custos | Carlos | Must have    | Proporcionarão a Carlos uma visão abrangente do desempenho e dos custos de cada projeto, facilitando decisões estratégicas e planejamento financeiro.|
-|                        | Avaliação de Desempenho      | Carlos | Should have  | Ajudará a Carlos a avaliar o desempenho dos freelancers, identificar oportunidades de melhoria e aumentar a produtividade de sua equipe.|
-|                        | Integração com Pagamento     | Carlos | Could have   | A integração com métodos de pagamento pode ser adiada para versões futuras, com o foco principal na entrega das funcionalidades 'Must have' e 'Should have'.|
-|                        | Comunicação com Freelancers  | Carlos | Could have   | A comunicação integrada com os freelancers também pode ser adiada para versões futuras, considerando que Carlos já terá um MVP com funcionalidades essenciais para gerenciar sua equipe e projetos |
+
+| Sprint | Funcionalidade                                | Persona | Priorização | Justificativa                                     |
+|--------|-----------------------------------------------|---------|-------------|----------------------------------------------------|
+| Sprint 2 - Semana 4-8                | Monitoramento de Condições de Armazenamento  | Enzo    | Should have | Importante para garantir a qualidade dos produtos armazenados e evitar desperdícios.|
+|     | Histórico de Produção                        | Julia   | Should have | Importante para manter um registro histórico das safras e das inspeções de qualidade anteriores.|
+|     | Notificações de Alerta                      | Julia   | Should have | Útil para alertar Julia sobre eventos importantes relacionados à produção, como condições climáticas adversas.|
+|      | Priorização de Reposição de Insumos          | Enzo    | Could have  | Desejável para ajudar Enzo a gerenciar melhor o processo de reposição de insumos, mas pode ser adiada para versões futuras.|
+|      | Relatórios de Desperdício                    | Enzo    | Could have  | Útil para identificar áreas de melhoria na gestão de estoque, mas menos crítico do que as funcionalidades anteriores.|
+|    | Suporte a Dispositivos Móveis               | Julia   | Could have  | Desejável para permitir que Julia acesse o software de monitoramento através de dispositivos móveis, mas pode ser adiado para versões futuras.|
+
 
 [Retorna](../README.md)
