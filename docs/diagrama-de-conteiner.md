@@ -1,5 +1,7 @@
 # Diagrama de Contêiner
 
-> Elabore o diagrama de contêiner utilizando a notação C4. Esse diagrama mostra uma visão de alto nível da arquitetura de software e como as responsabilidades são distribuídas nela. Ele também mostra as principais opções de tecnológicas e como os contêineres se comunicam entre si.
+>O "Frontend" é desenvolvido em React, uma biblioteca JavaScript para construir interfaces de usuário.
+O "Backend" é uma API desenvolvida em C#, que lida com a lógica de negócios e processamento de dados.
+Essa representação reflete a arquitetura de contêineres do TerraFácil ERP, com a divisão clara entre o frontend e o backend, bem como as tecnologias específicas utilizadas em cada parte do sistema.
 
 ![Diagrama de Contêiner](docs/../figuras/diagrama-de-container.png)
