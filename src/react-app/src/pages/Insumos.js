@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function InsulmoPage() {
+function Insumos() {
   const [id, setId] = useState("");
   const [Name, setName] = useState("");
   const [valor, setValor] = useState("");
@@ -77,7 +77,7 @@ function InsulmoPage() {
   }
   return (
     <div>
-      <div className="bg-secondary p-4 text-white fs-3">Terra Facil WEB</div>
+      <div className="bg-secondary p-4 text-white fs-1">Terra Facil WEB</div>
       <div className="container">
         <h1 className="text-center mt-4 fs-3">Cadastro de Insumos</h1>
         <div className="d-flex col-12 ">
@@ -121,13 +121,13 @@ function InsulmoPage() {
             </div>
             <div className="mt-4 d-flex ">
               <div className="me-3">
-                <button class="btn  btn-outline-primary" onClick={save}>
-                  Register
+                <button class="btn  btn-outline-success" onClick={save}>
+                  Registrar
                 </button>
               </div>
               <div>
                 <button class="btn btn-outline-warning" onClick={update}>
-                  Update
+                  Modificar
                 </button>
               </div>
             </div>
@@ -135,48 +135,46 @@ function InsulmoPage() {
           <div className="col-4" />
         </div>
 
-        <table className="table table-white mt-5" align="center">
-          <thead>
+        <table className="table table-striped table-bordered mt-5" align="center">
+          <thead className="table-dark">
             <tr>
-              <th scope="col">Insumo Id</th>
-              <th scope="col">Tipo de Insumo</th>
+              <th scope="col">ID</th>
+              <th scope="col">Tipo</th>
               <th scope="col">Valor</th>
-
-              <th scope="col">Option</th>
+              <th scope="col">Opções</th>
             </tr>
           </thead>
-          {insumos.map(function fn(insumo) {
-            return (
-              <tbody>
-                <tr>
-                  <th scope="row">{insumo.id} </th>
+          <tbody>
+            {insumos.map(function fn(insumo) {
+              return (
+                <tr key={insumo.id}>
+                  <td>{insumo.id} </td>
                   <td>{insumo.name}</td>
                   <td>{insumo.valor}</td>
-
                   <td>
                     <button
                       type="button"
-                      class="btn btn-warning"
+                      className="btn btn-info me-2"
                       onClick={() => editInsumo(insumo)}
                     >
-                      Edit
+                      Editar
                     </button>
                     <button
                       type="button"
-                      class="btn btn-danger"
+                      className="btn btn-danger"
                       onClick={() => DeleteInsumo(insumo.id)}
                     >
-                      Delete
+                      Deletar
                     </button>
                   </td>
                 </tr>
-              </tbody>
-            );
-          })}
+              );
+            })}
+          </tbody>
         </table>
       </div>
     </div>
   );
 }
 
-export default InsulmoPage;
+export default Insumos;

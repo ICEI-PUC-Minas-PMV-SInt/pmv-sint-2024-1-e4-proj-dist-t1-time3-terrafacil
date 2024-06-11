@@ -2,6 +2,9 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+/**
+ * Componente responsável por gerenciar o CRUD de insumos.
+ */
 function InsumoCrud() {
     const [id, setId] = useState("");
     const [Name, setName] = useState("");
@@ -12,12 +15,19 @@ function InsumoCrud() {
         (async () => await Load())();
     }, []);
 
+    /**
+     * Função assíncrona para carregar os insumos da API.
+     */
     async function Load() {
         const result = await axios.get("https://localhost:7018/api/Insumo/GetInsumo/");
         setUsers(result.data);
         console.log(result.data);
     }
 
+    /**
+     * Função assíncrona para salvar um novo insumo.
+     * @param {Event} event - O evento de clique no botão de registro.
+     */
     async function save(event) {
         event.preventDefault();
         try {
@@ -35,12 +45,20 @@ function InsumoCrud() {
         }
     }
 
+    /**
+     * Função assíncrona para editar um insumo existente.
+     * @param {Object} insumos - O objeto de insumo a ser editado.
+     */
     async function editInsumo(insumos) {
         setName(insumos.name);
         setValor(insumos.valor);
         setId(insumos.id);
     }
 
+    /**
+     * Função assíncrona para excluir um insumo.
+     * @param {string} id - O ID do insumo a ser excluído.
+     */
     async function DeleteInsumo(id) {
         await axios.delete("https://localhost:7018/api/Insumo/DeleteInsumo/" + id);
         alert("Insumo apagado com sucesso");
@@ -50,6 +68,10 @@ function InsumoCrud() {
         Load();
     }
 
+    /**
+     * Função assíncrona para atualizar um insumo existente.
+     * @param {Event} event - O evento de clique no botão de atualização.
+     */
     async function update(event) {
         event.preventDefault();
         try {
@@ -73,10 +95,10 @@ function InsumoCrud() {
             <h1>Insumos</h1>
             <div className="container mt-4">
                 <form>
-                    <div className="form-group">
+                    <div className="form-group row">
                         <input
                             type="text"
-                            className="form-control"
+                            className="form-control col-md-6"
                             id="id"
                             hidden
                             value={id}
@@ -84,36 +106,44 @@ function InsumoCrud() {
                                 setId(event.target.value);
                             }}
                         />
-                        <label>Tipo de insumo</label>
-                        <input
-                            type="text"
-                            className="form-control mb-2"
-                            id="name"
-                            value={Name}
-                            onChange={(event) => {
-                                setName(event.target.value);
-                            }}
-                        />
                     </div>
-                    <div className="form-group">
-                        <label>Valor</label>
-                        <input
-                            type="text"
-                            className="form-control mb-2"
-                            id="valor"
-                            value={valor}
-                            onChange={(event) => {
-                                setValor(event.target.value);
-                            }}
-                        />
+                    <div className="form-group row">
+                        <label className="col-md-2">Tipo de insumo</label>
+                        <div className="col-md-6">
+                            <input
+                                type="text"
+                                className="form-control"
+                                id="name"
+                                value={Name}
+                                onChange={(event) => {
+                                    setName(event.target.value);
+                                }}
+                            />
+                        </div>
                     </div>
-                    <div>
-                        <button className="btn btn-primary mt-4 mr-2" onClick={save}>
-                            Register
-                        </button>
-                        <button className="btn btn-warning mt-4" onClick={update}>
-                            Update
-                        </button>
+                    <div className="form-group row">
+                        <label className="col-md-2">Valor</label>
+                        <div className="col-md-6">
+                            <input
+                                type="text"
+                                className="form-control"
+                                id="valor"
+                                value={valor}
+                                onChange={(event) => {
+                                    setValor(event.target.value);
+                                }}
+                            />
+                        </div>
+                    </div>
+                    <div className="form-group row">
+                        <div className="col-md-6 offset-md-2">
+                            <button className="btn btn-primary mt-4 mr-2" onClick={save}>
+                                Registrar
+                            </button>
+                            <button className="btn btn-warning mt-4" onClick={update}>
+                                Modificar
+                            </button>
+                        </div>
                     </div>
                 </form>
             </div>

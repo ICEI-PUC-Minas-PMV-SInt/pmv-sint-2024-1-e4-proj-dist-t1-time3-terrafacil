@@ -1,10 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import InsulmoPage from "../src/pages/insulmo.page";
+import Insumos from "./pages/Insumos";
 
 function App() {
   return (
     <div>
-      <InsulmoPage />
+      <Insumos />
     </div>
   );
 }
