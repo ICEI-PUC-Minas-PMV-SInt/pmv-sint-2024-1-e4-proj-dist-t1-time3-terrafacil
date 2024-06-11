@@ -1,11 +1,10 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import InsumoCrud from "./components/InsumoCrud";
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import InsulmoPage from "../src/pages/insulmo.page";
 
 function App() {
   return (
     <div>
-      <InsumoCrud />
+      <InsulmoPage />
     </div>
   );
 }
